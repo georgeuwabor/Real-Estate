@@ -1,0 +1,70 @@
+.headers {
+  width: 69px;
+  height: 54px;
+  top: 29px;
+  left: 70px;
+  gap: 240px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navigator {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LOGO img {
+  height: 40px;
+}
+
+.About ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.About ol {
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  position: relative;
+}
+
+.About ol span img {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.Log {
+  display: flex;
+  gap: 15px;
+}
+
+.login,
+.signup {
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+.signup {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.signup:hover {
+  background-color: #0056b3;
+}
