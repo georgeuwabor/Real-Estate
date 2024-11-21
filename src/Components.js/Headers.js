@@ -28,7 +28,7 @@ function Headers() {
             <div>
               <p className="login">Login</p>
             </div>
-            <div>
+            <div className="signupp">
               <p className="signup">Signup</p>
             </div>
           </div>

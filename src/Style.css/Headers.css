@@ -1,9 +1,14 @@
 .headers {
-  width: 69px;
+  /* width: 69px;
   height: 54px;
   top: 29px;
   left: 70px;
-  gap: 240px;
+  gap: 240px; */
+  width: 1440px;
+  height: 111px;
+  padding: 29px 128.31px 28px 70px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .header {
@@ -12,6 +17,12 @@
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  width: 1, 241.69px;
+  height: 54px;
+  top: 29px;
+  left: 70px;
+  gap: 240px;
+  opacity: 0px;
 }
 
 .navigator {
@@ -22,15 +33,27 @@
 }
 
 .LOGO img {
-  height: 40px;
+  /* height: 40px; */
+  width: Hug (138.69px) px;
+  height: Hug (47.4px) px;
+  gap: 4px;
+  opacity: 0px;
 }
 
 .About ul {
   display: flex;
+  gap: 20px;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  gap: 20px;
+  width: Hug (447px) px;
+  height: Fixed (54px) px;
+  gap: 36px;
+  opacity: 0px;
+  width: Hug (447px) px;
+  height: Fixed (54px) px;
+  gap: 36px;
+  opacity: 0px;
 }
 
 .About ol {
@@ -48,19 +71,69 @@
 .Log {
   display: flex;
   gap: 15px;
+  width: Hug (176px) px;
+  height: Hug (50px) px;
+  gap: 24px;
+  opacity: 0px;
 }
 
-.login,
+.login {
+  font-family: Plus Jakarta Display;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.29px;
+  letter-spacing: -0.800000011920929px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+  color: #010101cc;
+  width: 43px;
+  height: 23px;
+}
+
+/* .login,
 .signup {
   font-size: 16px;
   cursor: pointer;
   color: #333;
+  width: 43px;
+  height: 23px;
+} */
+
+.signupp {
+  /* width: Fixed (109px) px;
+  height: Fixed (50px) px;
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(166.7deg, #651940 -30.35%, #7c1b4c 119.98%); */
 }
 
 .signup {
+  /* width: 43px;
+  height: 23px;
   font-weight: bold;
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #7c1b4c;
+  padding: 8px 16px;
+  border-radius: 4px; */
+  width: 43px;
+  height: 13px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Plus Jakarta Display;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: -0.800000011920929px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  /* background-color: #651940; */
+  background: linear-gradient(166.7deg, #651940 -30.35%, #7c1b4c 119.98%);
   padding: 8px 16px;
   border-radius: 4px;
 }
