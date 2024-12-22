@@ -1,7 +1,7 @@
 import React from "react";
 import ArrowDrop from "../Assets.js/ArrowDrop.svg";
 import Logo from "../Assets.js/Logo.svg";
-import "../Style.css/Headers.css";
+import "../Style/Headers.css";
 
 function Headers() {
   return (

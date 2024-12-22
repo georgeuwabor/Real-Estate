@@ -1,8 +1,10 @@
+import Search from "../Assets.js/Search.svg";
+import "../Style/Unsplash.css";
 function Unsplash() {
   return (
     <div className="unsplash__container">
-      <div className="unsplash">
-        <div className="frame5_container">
+      <div className="unsplash_Frame4273200023">
+        <div className="unsplash_frame5">
           <p className="unsplash_text1">
             Discover other investment opportunities beyond crypto, stocks and
             bonds
@@ -12,46 +14,69 @@ function Unsplash() {
             surer low risk return on investment. Learn More
           </p>
         </div>
-      </div>
-      <div className="frame4">
-        <div className="token__container">
-          <div className="line2">Line 2</div>
-          <div className="fr2">
-            <p>Rent</p>
-            <div className="fr1_container">
-              <p>Sales</p>
-              <p>Line 4</p>
-            </div>
-            <div className="fr0_container">
-              <p>Crowdfunding</p>
-              <p>Line 3</p>
-            </div>
-            <div className="fr9_container">
-              <p>Token</p>
-              <p>Line 2</p>
+        <div className="unsplash_frame427319424">
+          <div className="frame_token">
+            <div className="frame427319422">
+              <div className="items_div">
+                <div className="item_child_div">
+                  <div className="rent">Tokens</div>
+                  <div className="frame_token_line2 line"></div>
+                </div>
+                <br />
+                <div className="frame427319421_line4"></div>
+              </div>
+
+              <div className="items_div">
+                <div className="item_child_div">
+                  <div className="rent">Crowdfunding</div>
+                  <div className="frame_token_line2 line"></div>
+                </div>
+
+                <br />
+                <div className="frame427319421_line4"></div>
+              </div>
+
+              <div className="items_div">
+                <div className="item_child_div">
+                  <div className="rent">Sales</div>
+                  <div className="frame_token_line2 line"></div>
+                </div>
+                <br />
+                <div className="frame427319421_line4"></div>
+              </div>
+
+              <div className="items_div">
+                <div className="item_child_div">
+                  <div className="rent">Rent</div>
+                  <div className="frame_token_line2 line"></div>
+                </div>
+                {/* <br />
+                <div className="frame427319421_line4"></div> */}
+              </div>
             </div>
           </div>
-        </div>
-        <div className="location_bar_container">
-          <div className="location_bar_search">
-            <img src={Search} alt="Search" />
-          </div>
-          <div className="location_container">
-            <div className="location">
-              <p>Location</p>
-              <p>Enter Location</p>
+
+          <div className="frame_427319418_location_container">
+            <div className="frame_427319415_location">
+              <div className="frame_427319338">
+                <h5 h5>Location</h5>
+                <h6>Enter Location</h6>
+              </div>
+              <br />
+              <div className="frame427319421_line4"></div>
             </div>
-            <br />
+
+            {/* <hr /> */}
             <div className="property_type_container">
               <div className="property_type">
                 <div className="property_type_choose">
-                  <p>Property Type</p>
-                  <p>Choose Property</p>
+                  <h5>Property Type</h5>
+                  <h6>Choose Property</h6>
                   <div className="vuesax">
                     <div className="vuesax_outline">
                       <div className="vuesax_arrow-left">
-                        <img src={vectorsquare} alt="vectorsquare" />
-                        <img src={vectorarrowdown} alt="vectorarrowdown" />
+                        {/* <img src={vectorsquare} alt="vectorsquare" />
+                        <img src={vectorarrowdown} alt="vectorarrowdown" /> */}
                       </div>
                     </div>
                   </div>
@@ -62,6 +87,11 @@ function Unsplash() {
             <div>Currency</div>
             <br />
             <div>Price</div>
+            <div className="location_bar_container">
+              <div className="location_bar_search">
+                <img src={Search} alt="Search" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
